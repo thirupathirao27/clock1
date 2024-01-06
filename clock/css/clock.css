@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:lightcoral;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#clock{
+    width:20vw;
+    height:40vh;
+    background-color:#fff;
+    border-radius:100%;
+    box-shadow: inset 0 0 10px;
+    border:solid 8px #fff ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.dot{
+    width:1vw;
+    height:2vh;
+    background-color:rgb(88, 83, 83);
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:48%;
+}
+span{
+    display: inline-block;
+}
+.num{
+   
+    position:absolute;
+    height:40vh;
+   
+
+}
+.num span{
+    width:2vw;
+    height:4vh;
+    line-height:30px;
+    
+    vertical-align:middle;
+    text-align:center;
+    
+}
+.num1{
+    transform:rotate(30deg);
+}
+
+.num1 span{
+    transform:rotate(-30deg);
+}
+
+.num2{
+    transform:rotate(60deg);
+}
+.num2 span{
+    transform:rotate(-60deg);
+}
+
+
+.num3{
+    transform:rotate(90deg);
+}
+.num3 span{
+    transform:rotate(-90deg);
+}  
+
+
+.num4{
+    transform:rotate(120deg);
+}
+.num4 span{
+    transform:rotate(-120deg);
+}
+
+.num5{
+    transform:rotate(150deg);
+}
+.num5 span{
+    transform:rotate(-150deg);
+}
+
+
+.num6{
+    transform:rotate(180deg);
+}
+.num6 span{
+    transform:rotate(-180deg);
+}
+
+.num7{
+    transform:rotate(210deg);
+}
+.num7 span{
+    transform:rotate(-210deg);
+}
+
+
+.num8{
+    transform:rotate(240deg);
+}
+.num8 span{
+    transform:rotate(-240deg);
+}
+
+
+.num9{
+    transform:rotate(270deg);
+}
+.num9 span{
+    transform:rotate(-270deg);
+}
+
+
+.num10{
+    transform:rotate(300deg);
+}
+.num10 span{
+    transform:rotate(-300deg);
+}
+
+
+.num11{
+    transform:rotate(330deg);
+}
+.num11 span{
+    transform:rotate(-330deg);
+}
+
+.num12{
+ 
+    transform:rotate(360deg);
+}
+.num12 span{
+    transform:rotate(-360deg);
+}
+.sec-handler{
+    width:0.2vw;
+    height:14vh;
+    background-color: red;
+    position:absolute;
+    top:9.5vh;
+    left:50.5%;
+    transform-origin:50% 80%;
+}
+.hr-handler{
+    width:0.2vw;
+    height:10vh;
+    background-color:#6b6767;
+    position:absolute;
+    left:50%;
+    top:33%;
+    transform-origin:50% 80%;
+   
+}
+.min-handler{
+    width:0.2vw;
+    height:12vh;
+    background-color:#6b6767;
+    position:absolute;
+    left:50%;
+    top:28%;
+    transform-origin:50% 80%;
+
+    
+}
